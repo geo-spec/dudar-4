@@ -10,6 +10,11 @@ import pandas as pd
 
 from pprint import pprint
 
+# Загружаем набор данных Iris и сохраняем его в переменную iris.
+# Функция возвращает объект типа Bunch (почти как словарь),
+# в котором хранятся: данные, названия столбцов, названия классов и описание.
+
+
 iris = load_iris()
 df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 df['target'] = iris.target
