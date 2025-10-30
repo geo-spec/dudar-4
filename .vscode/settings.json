@@ -1,0 +1,9 @@
+{
+  
+  "python.defaultInterpreterPath": "./venv/bin/python",
+  "code-runner.executorMap": {
+    "python": "./venv/bin/python -u"
+  },
+  "code-runner.runInTerminal": true,
+  "python.terminal.activateEnvironment": true
+}
