@@ -110,7 +110,8 @@ print(f'Точность модели: {accuracy * 100:.2f}%')
 import numpy as np
 
 # Новый пример ириса для классификации
-# Значения: длина и ширина чашелистика, длина и ширина леп   
+# Значения: длина и ширина чашелистика, длина и ширина лепестков
+
 example = np.array([[5.1, 3.5, 1.4, 0.2]])
 predication = model.predict(example)
 print(f'Предсказанный класс для примера {example[0]}: {iris.target_names[predication][0]}')
